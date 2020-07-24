@@ -1,0 +1,9 @@
+# Created by https://www.gitignore.io
+!**/__pycache__/
+!**/migrations/
+### OSX ###
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
