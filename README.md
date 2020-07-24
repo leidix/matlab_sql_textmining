@@ -3,9 +3,9 @@
 Just for fun.
 This repo contains a SQL database with my favorite recipes. I want to perform some text analysis and word clustering. Not sure yet what this will lead to. Would be cool to train some kind of model to give recipe suggestions, based on ingredients.
 
-<img src="ingredients_wordcloud.png" width="1000">
+<img src="figures/ingredients_wordcloud.png" width="1000">
 
-<img src="ingredients_tsne.png" width="1000">
+<img src="figures/ingredients_tsne.png" width="1000">
 
 
 # Repo structure

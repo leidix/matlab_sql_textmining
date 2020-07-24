@@ -1,7 +1,7 @@
 clear all; close all; clc;
 
 %% Load pre-processed workspace
-load('db_struct.mat');
+load('./db/db_struct.mat');
 
 allWords = {db.ZRECIPE(:).ZINGREDIENTS}'; %{db.ingredients(:).item}';
 
