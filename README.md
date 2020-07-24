@@ -13,23 +13,25 @@ This repo contains a SQL database with my favorite recipes. I want to perform so
 ```
 .
 |-- db
+|   |-- db_struct.mat
 |   |-- my_recipes.sqlite
 |   `-- sql_demo.m
 |-- drivers
-|   |-- Icon\r
 |   |-- mssql-jdbc-8.2.2.jre8.jar
 |   |-- mysql-connector-java-8.0.19.jar
 |   |-- postgresql-42.2.11.jar
 |   `-- sqlite-jdbc-3.30.1.jar
+|-- figures
+|   |-- ingredients_tsne.png
+|   `-- ingredients_wordcloud.png
 |-- functions
-|   `-- SQLite2struct.m
+|   |-- SQLite2struct.m
+|   `-- googleTranslateAPI.m
 |-- README.md
-|-- db_struct.mat
-|-- read_my_recipes.m
-|-- text_mining.m
-`-- text_mining.m~
+|-- parse_database.m
+`-- text_mining.m
 
-3 directories, 13 files
+4 directories, 14 files
 
 
 This tree was created by the following command:
